@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    display: flex;   
+    justify-content: center;}
+
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    border: 2px solid;
+    transition: 0.9s;
+
+}
+
+ul li a:hover {
+    background: transparent;
+    color: #333;
+    border-color: #ccc;
+}
